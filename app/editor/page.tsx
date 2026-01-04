@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Editor from "@monaco-editor/react";
-import { supabase } from "@/lib/supabase";
+import { supabase } from "../../lib/supabase";
 
 // Type for file/folder nodes
 type FileNode = {
